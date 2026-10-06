@@ -1,0 +1,21 @@
+# Python bytecode and packaging
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editors and OS
+.vscode/
+.idea/
+*~
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Scratch output from runs (folder created during the cleanup)
+runs/
