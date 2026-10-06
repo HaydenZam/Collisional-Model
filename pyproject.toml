@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "colmodel"
+version = "0.1.0"
+description = "Collision model of a spin-chain channel driven by correlated sender/receiver ancillas"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{ name = "Hayden Zammit" }]
+dependencies = ["numpy", "scipy", "qutip>=5"]
+
+[project.optional-dependencies]
+studies = ["matplotlib"]
+
+[tool.setuptools]
+packages = ["colmodel"]

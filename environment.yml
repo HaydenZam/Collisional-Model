@@ -1,0 +1,14 @@
+# Versions as installed in the quantum-ml environment the code was validated in (Oct 2026).
+# quantum-ml is a general-purpose environment; this lists only what colmodel needs.
+name: colmodel
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11.15
+  - numpy=2.4.6
+  - scipy=1.17.1
+  - matplotlib=3.11.0
+  - pip
+  - pip:
+      - qutip==5.2.1
+      - -e .
